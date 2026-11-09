@@ -28,11 +28,9 @@ Homeassistant MCP server for XiaoZhi AI，directly connect to Xiaozhi AI officia
 ---
 ### Function demonstration（please like it for support, or post a few comments）
 
-<a href="https://www.bilibili.com/video/BV1XdjJzeEwe" > Access demonstration video </a>
+https://youtu.be/A8XC2nEJ0uw?si=4WzdSNp8yyYNYC8b
 
-<a href="https://www.bilibili.com/video/BV18DM8zuEYV" > Control TV presentation (via custom script)</a>
-
-<a href="https://www.bilibili.com/video/BV1SruXzqEW5" > HomeAssistant、LLM、MCP、XiaoZhi AI advanced tutorials </a>
+https://youtu.be/3eccQM_eRTI?si=glRr0qW4OnYm5qfr
 
 ---
  
