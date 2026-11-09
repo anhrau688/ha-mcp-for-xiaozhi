@@ -6,10 +6,7 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/downloads/anhrau688/ha-mcp-for-xiaozhi/total?style=for-the-badge&color=green)
 ![GitHub release (latest by date)](https://img.shields.io/github/downloads/anhrau688/ha-mcp-for-xiaozhi/latest/total?style=for-the-badge&color=green)
 
-## ha-mcp-for-xiaozhi
-- [English](README.en.md)
-- [中文](README.md)
-
+## ha-mcp-for-xiaozhi- added full attributes for climate and fan devices
 
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=anhrau688&repository=ha-mcp-for-xiaozhi&category=integration)
 
