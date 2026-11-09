@@ -44,12 +44,15 @@ Make sure your Home Assistant is being 2026.11 or newer
 
 
 
-2.Download the component
+2.Add custom repositories: click on "Add from link" on the right coner
 
-<img width="748" height="580" alt="image" src="https://github.com/user-attachments/assets/1ee75d6f-e1b0-4073-a2c7-ee0d72d002ca" />
+<img width="621" height="208" alt="image" src="https://github.com/user-attachments/assets/ae7f8776-27c4-45a5-b8f7-01f3c68cfc2e" />
 
 
-3.Restart Home Assistant.
+
+3.paste url of this repo in the box: https://github.com/anhrau688/ha-mcp-for-xiaozhi -> then click "Add" button
+<img width="578" height="302" alt="image" src="https://github.com/user-attachments/assets/521d8167-50f5-4cae-90b2-aef3884282a9" />
+
 
 
 ### Configuration：
