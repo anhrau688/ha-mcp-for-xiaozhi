@@ -15,7 +15,7 @@
 </p>  
 
 <p align="center"> 
-Homeassistant MCP server for XiaoZhi AI，directly connect to Xiaozhi AI official server.
+Homeassistant MCP server for XiaoZhi AI，directly connect to Xiaozhi AI official server https://xiaozhi.me
 </p>
 
 
