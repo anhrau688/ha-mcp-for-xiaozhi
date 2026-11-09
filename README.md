@@ -26,7 +26,7 @@ Homeassistant MCP server for XiaoZhi AI，directly connect to Xiaozhi AI officia
 #### 3.Support configuring multiple entities at the same time
 
 ---
-### Function demonstration（please like it for support, or post a few comments）
+### To watch video how to config（please like it for support, or post a few comments）
 
 https://youtu.be/A8XC2nEJ0uw?si=4WzdSNp8yyYNYC8b
 
@@ -72,6 +72,7 @@ Now your integration has been already
 <img width="1123" height="326" alt="image" src="https://github.com/user-attachments/assets/675d26d0-7103-44bf-a21d-c8a7626eabf0" />
 
 2.The final Step: Access your xiaozhi.me account ->open Configure -> Extension tab -> click "Refresh" icon, All of supported mcp tool wil be show in below
+
 <img width="724" height="690" alt="image" src="https://github.com/user-attachments/assets/82c67e00-a34e-41d8-ba03-6ec2dd508b13" />
 
 
@@ -83,7 +84,7 @@ Now your integration has been already
 
  1.The tools exposed depend on the type of entity you expose to the HomeAssistant voice assistant
    
- 2.Try to use the latest version of HomeAssistant. There are obvious differences in the tools provided by the May version and the March version.
+ 2.Try to use the latest version of HomeAssistant. There are obvious differences in the tools provided by the Oct version and the Nov version.
 
  3.If debugging doesn't work as expected, first check Xiaozhi's chat log to see how he handles the command and whether he has a tool that calls HomeAssist. Currently, a major known issue is that lighting and music control can conflict with the built-in screen and music control logic. This will be resolved after the XiaGe server supports built-in tool selection next month.
  
