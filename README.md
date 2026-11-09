@@ -61,8 +61,8 @@ Make sure your Home Assistant is being 2026.11 or newer
 
 <img width="600" height="315" alt="image" src="https://github.com/user-attachments/assets/8efffe8c-3983-4dc1-85bb-f49bee52c318" />
 
-6.Configuration:
-Input WebSocket Access Point For XiaoZhi AI in this box -> click "Submit" -> click "Finish"
+### Configuration：
+1.Input WebSocket Access Point For XiaoZhi AI in this box -> click "Submit" -> click "Finish"
 <img width="578" height="501" alt="image" src="https://github.com/user-attachments/assets/9aaa4665-361b-4a5b-a256-c5b7f609c674" />
 
  WebSocket can get in your xiaozhi.me account like this
@@ -71,41 +71,13 @@ Input WebSocket Access Point For XiaoZhi AI in this box -> click "Submit" -> cli
 Now your integration has been already
 <img width="1123" height="326" alt="image" src="https://github.com/user-attachments/assets/675d26d0-7103-44bf-a21d-c8a7626eabf0" />
 
-The final Step: Access your xiaozhi.me account ->open Configure -> Extension tab -> click "Refresh" icon, All of supported mcp tool wil be show in below
+2.The final Step: Access your xiaozhi.me account ->open Configure -> Extension tab -> click "Refresh" icon, All of supported mcp tool wil be show in below
 <img width="724" height="690" alt="image" src="https://github.com/user-attachments/assets/82c67e00-a34e-41d8-ba03-6ec2dd508b13" />
 
 
 
 
 
-
-
-
-
-
-### Configuration：
-
-[Settings > Devices & Services > Add Integration] > Search for "Mcp" > Find MCP Server for Xiaozhi
-
-<img width="888" height="478" alt="image" src="https://github.com/user-attachments/assets/07a70fe1-8c6e-4679-84df-1ea05114b271" />
-
-
-
-Next > Please fill in the Xiaozhi MCP access point address, select the required MCP > Submit. 
-
-Note that the Assist in the llm_hass_api checkbox is the HA built-in function, 
-and the other options are other MCP servers you had connected in HomeAssistant (you can directly proxy to Xiaozhi here)
-
-<img width="774" height="632" alt="image" src="https://github.com/user-attachments/assets/38e98fde-8a6c-4434-932c-840c25dc6e28" />
-
-
-Configuration is complete! Wait a minute and go to Xiaozhi's access point page and click refresh to check the
-
-![bd06b555b9e5c24fbf819c43397c97ee](https://github.com/user-attachments/assets/ace79a44-6197-4e94-8c49-ab9048ed4502)
-
-
-
----
 
 ### Debugging Instructions
 
@@ -116,23 +88,6 @@ Configuration is complete! Wait a minute and go to Xiaozhi's access point page a
  3.If debugging doesn't work as expected, first check Xiaozhi's chat log to see how he handles the command and whether he has a tool that calls HomeAssist. Currently, a major known issue is that lighting and music control can conflict with the built-in screen and music control logic. This will be resolved after the XiaGe server supports built-in tool selection next month.
  
  4.If the process correctly calls the built-in function of HA, you can open the debug log of this plug-in to observe the actual execution status.
- 
----
-<a href="https://buymeacoffee.com/c1pher_cn" target="_blank" rel="noreferrer noopener">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee">
-</a>
-
-<a href="https://star-history.com/#c1pher-cn/ha-mcp-for-xiaozhi&Date"></a>
-
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=c1pher-cn/ha-mcp-for-xiaozhi&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=c1pher-cn/ha-mcp-for-xiaozhi&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=c1pher-cn/ha-mcp-for-xiaozhi&type=Date" />
- </picture>
-</a>
-
-
- 
  
 
 
