@@ -26,7 +26,7 @@ Homeassistant MCP server for XiaoZhi AI，directly connect to Xiaozhi AI officia
 #### 3.Support configuring multiple entities at the same time
 
 ---
-### To watch video how to config（please like it for support, or post a few comments）
+### Watch video how to configure（please like it for support, or post a few comments）
 
 https://youtu.be/A8XC2nEJ0uw?si=4WzdSNp8yyYNYC8b
 
