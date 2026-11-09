@@ -36,11 +36,12 @@ https://youtu.be/3eccQM_eRTI?si=glRr0qW4OnYm5qfr
  
 ### Installation：
 
-Make sure HACS is installed in Home Assistant
+Make sure your Home Assistant is being 2026.11 or newer
 
-1.Open HACS and search for xiaozhi or ha-mcp-for-xiaozhi
+1.Open Setting -> Marketplace
 
-<img width="2316" height="238" alt="image" src="https://github.com/user-attachments/assets/fa49ee7c-b503-49fa-ad63-512499fa3885" />
+<img width="659" height="493" alt="image" src="https://github.com/user-attachments/assets/0f1de8e1-cfca-479f-be92-f17e8127b93d" />
+
 
 
 2.Download the component
