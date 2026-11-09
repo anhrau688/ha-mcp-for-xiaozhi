@@ -21,7 +21,7 @@ Homeassistant MCP server for 小智AI，直连小智AI官方服务器。
 </p>
 
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=c1pher-cn&repository=ha-mcp-for-xiaozhi&category=integration)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=anhrau688&repository=ha-mcp-for-xiaozhi&category=integration)
 
 ### 插件能力介绍
 #### 1.HomeAssistant自身作为mcp server 以websocket协议直接对接虾哥服务器，无需中转
