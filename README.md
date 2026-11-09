@@ -44,7 +44,7 @@ Make sure your Home Assistant is being 2026.11 or newer
 
 
 
-2.Add custom repositories: click on "Add from link" on the right coner
+2.Add custom repositories: click on "Add from link" on the top right coner
 
 <img width="621" height="208" alt="image" src="https://github.com/user-attachments/assets/ae7f8776-27c4-45a5-b8f7-01f3c68cfc2e" />
 
@@ -52,6 +52,9 @@ Make sure your Home Assistant is being 2026.11 or newer
 
 3.paste url of this repo in the box: https://github.com/anhrau688/ha-mcp-for-xiaozhi -> then click "Add" button
 <img width="578" height="302" alt="image" src="https://github.com/user-attachments/assets/521d8167-50f5-4cae-90b2-aef3884282a9" />
+
+4.back to Marketplace and find "MCP Server for Xiaozhi" now you can see this component show in the below list, then click on that note "Homeassistant MCP server for xiaozhi AI - add customs mcp for Climate and Fan device"
+<img width="963" height="439" alt="image" src="https://github.com/user-attachments/assets/32289ec4-980e-4dd6-8c8c-f07191d98ceb" />
 
 
 
