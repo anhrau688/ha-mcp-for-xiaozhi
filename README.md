@@ -11,6 +11,7 @@
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=anhrau688&repository=ha-mcp-for-xiaozhi&category=integration)
 
 <p align="center">
+<img width="256" height="256" alt="icon" src="https://github.com/user-attachments/assets/56d596f8-4de9-4097-8c87-0dfdf90556da" />
 
 </p>  
 
