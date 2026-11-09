@@ -33,6 +33,7 @@ LIVE_CONTEXT_TOOL_NAME = "homeassistant__GetLiveContext"
 CLIMATE_FAN_MODE_TOOL = "climate__HassClimateSetFanMode"
 CLIMATE_HVAC_MODE_TOOL = "climate__HassClimateSetHvacMode"
 CLIMATE_SWING_MODE_TOOL = "climate__HassClimateSetSwingMode"
+CLIMATE_PRESET_MODE_TOOL = "climate__HassClimateSetPresetMode"
 
 # Additional fan MCP tools
 FAN_OSCILLATE_TOOL = "fan__HassFanSetOscillating"
@@ -104,7 +105,7 @@ def _get_custom_climate_tools() -> list[types.Tool]:
                     "fan_mode": {
                         "type": "string",
                         "description": (
-                            "Fan speed to set, for example: auto, low, medium, high."
+                            "Fan speed to set, for example: auto, low, medium, high, mute, turbo."
                         ),
                     },
                 },
@@ -159,6 +160,37 @@ def _get_custom_climate_tools() -> list[types.Tool]:
                 "required": ["swing_mode"],
             },
         ),
+        types.Tool(
+            name=CLIMATE_PRESET_MODE_TOOL,
+            description=(
+                "Set the preset mode of a Home Assistant climate device. "
+                "Find the device automatically using its name, area or floor. "
+                "Do not provide entity_id. "
+                "Supported preset modes: none, sleep, Clean, Health, Antifungus. "
+                "For example, use name='Điều hoà phòng khách' "
+                "and preset_mode='sleep'."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    **target_properties,
+                    "preset_mode": {
+                        "type": "string",
+                        "enum": [
+                            "none",
+                            "sleep",
+                            "Clean",
+                            "Health",
+                            "Antifungus",
+                        ],
+                        "description": (
+                            "Preset mode: none, sleep, Clean, Health or Antifungus."
+                        ),
+                    },
+                },
+                "required": ["preset_mode"],
+            },
+        ),        
     ]
 
 
@@ -272,6 +304,11 @@ async def _call_custom_climate_tool(
         mode_type = "swing_mode"
         requested_mode = arguments.get("swing_mode")
         required_feature = ClimateEntityFeature.SWING_MODE
+        
+    elif name == CLIMATE_PRESET_MODE_TOOL:
+        mode_type = "preset_mode"
+        requested_mode = arguments.get("preset_mode")
+        required_feature = ClimateEntityFeature.PRESET_MODE        
 
     else:
         raise HomeAssistantError(f"Unknown climate tool: {name}")
@@ -321,6 +358,7 @@ async def _call_custom_climate_tool(
         "fan_mode": "fan_modes",
         "hvac_mode": "hvac_modes",
         "swing_mode": "swing_modes",
+        "preset_mode": "preset_modes",
     }[mode_type]
 
     available_modes = climate_state.attributes.get(attribute_name) or []
@@ -346,6 +384,7 @@ async def _call_custom_climate_tool(
         "fan_mode": "set_fan_mode",
         "hvac_mode": "set_hvac_mode",
         "swing_mode": "set_swing_mode",
+        "preset_mode": "set_preset_mode",
     }[mode_type]
 
     await hass.services.async_call(
@@ -656,6 +695,7 @@ async def create_server(
                 CLIMATE_FAN_MODE_TOOL,
                 CLIMATE_HVAC_MODE_TOOL,
                 CLIMATE_SWING_MODE_TOOL,
+                CLIMATE_PRESET_MODE_TOOL,
             ):
                 tool_response = await _call_custom_climate_tool(
                     hass,
