@@ -28,9 +28,9 @@ Homeassistant MCP server for XiaoZhi AI，directly connect to Xiaozhi AI officia
 ---
 ### Watch video how to configure（please like it for support, or post a few comments）
 
-https://youtu.be/A8XC2nEJ0uw?si=4WzdSNp8yyYNYC8b
+HA OS 2026.10 or older: https://youtu.be/A8XC2nEJ0uw?si=nUG2cuo6kSKfmaPf
 
-https://youtu.be/3eccQM_eRTI?si=glRr0qW4OnYm5qfr
+HA OS 2026.11 or newer: https://youtu.be/3eccQM_eRTI?si=AYMc7QP24e5TQphK
 
 ---
  
