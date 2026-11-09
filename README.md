@@ -65,7 +65,7 @@ Make sure your Home Assistant is being 2026.11 or newer
 1.Input WebSocket Access Point For XiaoZhi AI in this box -> click "Submit" -> click "Finish"
 <img width="578" height="501" alt="image" src="https://github.com/user-attachments/assets/9aaa4665-361b-4a5b-a256-c5b7f609c674" />
 
- WebSocket can get in your xiaozhi.me account like this
+ WebSocket can get in your xiaozhi.me account: Access your xiaozhi.me account ->open Configure -> Extension tab 
 <img width="724" height="690" alt="image" src="https://github.com/user-attachments/assets/883f8253-bb1f-432a-9c17-7812d13a42f9" />
 
 Now your integration has been already
