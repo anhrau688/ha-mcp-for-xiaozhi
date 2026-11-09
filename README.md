@@ -62,7 +62,7 @@ Make sure your Home Assistant is being 2026.11 or newer
 <img width="600" height="315" alt="image" src="https://github.com/user-attachments/assets/8efffe8c-3983-4dc1-85bb-f49bee52c318" />
 
 6.Configuration:
-Input WebSocket Access Point For XiaoZhi AI in this box -> click "Summit" -> click "Finish"
+Input WebSocket Access Point For XiaoZhi AI in this box -> click "Submit" -> click "Finish"
 <img width="578" height="501" alt="image" src="https://github.com/user-attachments/assets/9aaa4665-361b-4a5b-a256-c5b7f609c674" />
 
  WebSocket can get in your xiaozhi.me account like this
@@ -71,9 +71,9 @@ Input WebSocket Access Point For XiaoZhi AI in this box -> click "Summit" -> cli
 Now your integration has been already
 <img width="1123" height="326" alt="image" src="https://github.com/user-attachments/assets/675d26d0-7103-44bf-a21d-c8a7626eabf0" />
 
-The final Step: Access your xiaozhi.me account ->open Configure -> Extension tab -> click "Refresh" icon
+The final Step: Access your xiaozhi.me account ->open Configure -> Extension tab -> click "Refresh" icon, All of supported mcp tool wil be show in below
 <img width="724" height="690" alt="image" src="https://github.com/user-attachments/assets/82c67e00-a34e-41d8-ba03-6ec2dd508b13" />
-All of supported mcp tool wil be show in below
+
 
 
 
